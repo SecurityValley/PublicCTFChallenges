@@ -25,6 +25,6 @@ function validate(password) {
 function banner(payload) {
     console.info("that was great !!!");
     console.info("run the following command to get the flag.")
-    console.info(`curl -X POST http://ctf-dlab.com:7777/validate -H 'Content-Type: application/json' -d '{"pass": "${payload}"}'`)
+    console.info(`curl -X POST http://ctf-dlab.com:7777/api/v1/validate -H 'Content-Type: application/json' -d '{"pass": "${payload}"}'`)
 }
 
