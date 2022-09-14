@@ -2,7 +2,7 @@ from hashlib import sha256
 import sys
 
 def validate_password(password):
-    if sha256(password.encode("utf-8")).hexdigest() == "f1bc1076b129ce68688f30bdf9e5a72e6460596c6a956afc96489ccf7b1f7a1e":
+    if sha256(password.encode("utf-8")).hexdigest() == "f4ecea7b05c16d8f14b657484cc16bc5a93e059119f873bc0be9bb1b81c3a42e":
         return True 
 
     return False
