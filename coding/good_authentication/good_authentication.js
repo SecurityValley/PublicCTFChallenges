@@ -45,7 +45,7 @@ function validate(password) {
     }
 
 
-    banner(crafted);
+    banner(password);
 }
 
 function banner(payload) {
