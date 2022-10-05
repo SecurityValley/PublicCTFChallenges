@@ -2,6 +2,7 @@ from hashlib import sha256
 import sys
 
 def validate_password(password):
+    # be creative. The hash has maybe something todo with the event on thursday and friday and the location ;-) keep that in mind...
     if sha256(password.encode("utf-8")).hexdigest() == "f4ecea7b05c16d8f14b657484cc16bc5a93e059119f873bc0be9bb1b81c3a42e":
         return True 
 
