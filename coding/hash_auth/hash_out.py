@@ -11,7 +11,7 @@ def validate_password(password):
 def print_banner(payload):
     print("that was great !!!")
     print("run the following command to get the flag.")
-    print("curl -X POST http://ctf-dlab.com:7777/api/v1/validate -H 'Content-Type: application/json' -d '{\"pass\": \""+payload+"\"}'")
+    print("curl -X POST http://ctf.securityvalley.org:7777/api/v1/validate -H 'Content-Type: application/json' -d '{\"pass\": \""+payload+"\"}'")
 
 if __name__ == "__main__":
     print("let's do more python ;-)")
