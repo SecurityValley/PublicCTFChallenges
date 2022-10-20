@@ -1,0 +1,63 @@
+##################################################
+ 15           0 LOAD_GLOBAL              0 (print)
+              2 LOAD_CONST               1 ('loading application')
+              4 CALL_FUNCTION            1
+              6 POP_TOP
+
+ 17           8 LOAD_GLOBAL              1 (magic)
+             10 LOAD_CONST               2 ('8934')
+             12 LOAD_GLOBAL              2 (get_flag)
+             14 CALL_FUNCTION            0
+             16 CALL_FUNCTION            2
+             18 STORE_FAST               0 (d)
+
+ 19          20 LOAD_GLOBAL              0 (print)
+             22 LOAD_FAST                0 (d)
+             24 CALL_FUNCTION            1
+             26 POP_TOP
+             28 LOAD_CONST               0 (None)
+             30 RETURN_VALUE
+None
+##################################################
+  4           0 LOAD_CONST               1 ('k\\PbYUHDAM[[VJlVAMVk[VWQE')
+              2 RETURN_VALUE
+None
+##################################################
+  7           0 LOAD_CONST               1 (b'')
+              2 STORE_FAST               2 (out)
+
+  9           4 LOAD_GLOBAL              0 (range)
+              6 LOAD_GLOBAL              1 (len)
+              8 LOAD_FAST                1 (f)
+             10 CALL_FUNCTION            1
+             12 CALL_FUNCTION            1
+             14 GET_ITER
+        >>   16 FOR_ITER                46 (to 64)
+             18 STORE_FAST               3 (i)
+
+ 10          20 LOAD_FAST                2 (out)
+             22 LOAD_GLOBAL              2 (bytes)
+             24 LOAD_GLOBAL              3 (ord)
+             26 LOAD_FAST                1 (f)
+             28 LOAD_FAST                3 (i)
+             30 BINARY_SUBSCR
+             32 CALL_FUNCTION            1
+             34 LOAD_GLOBAL              3 (ord)
+             36 LOAD_FAST                0 (k)
+             38 LOAD_FAST                3 (i)
+             40 LOAD_GLOBAL              1 (len)
+             42 LOAD_FAST                0 (k)
+             44 CALL_FUNCTION            1
+             46 BINARY_MODULO
+             48 BINARY_SUBSCR
+             50 CALL_FUNCTION            1
+             52 BINARY_XOR
+             54 BUILD_LIST               1
+             56 CALL_FUNCTION            1
+             58 INPLACE_ADD
+             60 STORE_FAST               2 (out)
+             62 JUMP_ABSOLUTE           16
+
+ 12     >>   64 LOAD_FAST                2 (out)
+             66 RETURN_VALUE
+None
