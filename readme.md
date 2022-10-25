@@ -14,3 +14,4 @@ If you have an idea for a challange, feel free to get in touch with us! There is
 
 Telegram: <https://t.me/aicdev>
 Email: <contact@securityvalley.org>
+Discord: <https://discord.gg/aTAS6t5yxT>
