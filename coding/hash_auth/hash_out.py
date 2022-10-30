@@ -2,7 +2,7 @@ from hashlib import sha256
 import sys
 
 def validate_password(password):
-    # be creative.
+    # be creative. it has something to do with SecurityValley ;-)
     if sha256(password.encode("utf-8")).hexdigest() == "f51f333ed26c41bedd99e1e483c0a15d2caeed7dc5a9ae02159f196799a74893":
         return True 
 
