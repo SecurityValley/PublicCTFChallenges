@@ -1,3 +1,12 @@
+# CTF IS CLOSED!!!
+
+24.Aug.2023:
+
+Hi,
+I gonna close this CTF event by end of this morning. I‘ve a huge lack of time to maintain the system and tasks that are related to that topic .
+Thanks to all the players and the amazing feedback :-)
+
+
 # SecurityValley CTF challenges
 
 Hello and glad you found your way to this repository. Here you will find many capture the flag tasks from different categories. If you would like be part of the competition, you can register a free account here: <https://ctf.securityvalley.org>
